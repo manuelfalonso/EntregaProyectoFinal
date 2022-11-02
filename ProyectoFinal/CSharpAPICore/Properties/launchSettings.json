@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:21915",
+      "sslPort": 44332
+    }
+  },
+  "profiles": {
+    "CSharpAPICore": {
+        "commandName": "Project",
+        "launchBrowser": true,
+        "launchUrl": "swagger",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "applicationUrl": "http://localhost:5097;https://localhost:7097",
+        "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:7097/swagger",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development",
+            "ASPNETCORE_URLS": "http://localhost:5097;https://localhost:7097"
+        },
+      "distributionName": ""
+    }
+  }
+}
